@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Cost = require('../models/cost.js');
 
+
 // Add validations if needed.
 router.post('/', async (req, res) =>
 {
@@ -10,7 +11,6 @@ router.post('/', async (req, res) =>
         year,
         month,
         day,
-        id,
         description,
         category,
         sum
@@ -24,7 +24,6 @@ router.post('/', async (req, res) =>
                 year,
                 month,
                 day,
-                id,
                 description,
                 category,
                 sum

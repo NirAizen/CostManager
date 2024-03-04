@@ -1,20 +1,21 @@
 const mongoose = require('mongoose');
 
-// Check if this is the expected coding style.
-// Also, not sure if the 'id' property is necessary. 
 const costSchema = new mongoose.Schema(
     {
+        id: {
+            type: Number,
+            default: () => Math.floor(Math.random() * 1000)
+        },
         user_id: String,
         year: Number,
         month: Number,
         day: Number,
-        id: String,
         description: String,
         category: String,
         sum: Number
     }
 );
 
-const cost = mongoose.model('Cost', costSchema);
+const Cost = mongoose.model('Cost', costSchema);
 
-module.exports = cost;
+module.exports = Cost;

@@ -2,34 +2,29 @@ const express = require('express');
 const router = express.Router();
 const Cost = require('../models/cost.js');
 
-// Check if with the requirements if validations are required.
-router.get('/', async (req,res) =>
-{
+const categoryOptions = ['food', 'health', 'housing', 'sport', 'education', 'transportation', 'other'];
+
+router.get('/', async (req, res) => {
     const { user_id, year, month } = req.query;
 
-    try
-    {   
-        // Create a new object using .reduce method, sorted by cost category, there are duplicates in every cost category. 
-        const report = await Cost.find({ user_id, year, month }).select('category day description sum -_id');
-        const formattedReport = report.reduce( (product, cost) =>
+    try {
+        const formattedReport = {};
+        categoryOptions.forEach(category =>
         {
-            
-           if (!product[cost.category])
-           {
-                product[cost.category] = [];
-           }
+            formattedReport[category] = [];
+        });
 
-           product[cost.category].push(cost);
+        // Find costs for the user
+        const report = await Cost.find({ user_id, year, month }).select('category day description sum id');
 
-           return product;
+        // Iterating over the user report, and pushing the cost report to formattedReport object.
+        report.forEach(cost => {
+            formattedReport[cost.category].push(cost);
+        });
 
-        }, {});
-        
         res.json(formattedReport);
-    }
-    catch (err)
-    {
-        res.status(500).json({message: err.message});
+    } catch (err) {
+        res.status(500).json({ message: err.message });
     }
 });
 
