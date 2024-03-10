@@ -1,0 +1,556 @@
+./app.js: 1: Syntax error: "(" unexpected
+(node:10750) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10750) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 1400
+Connected to the DB
+[0mGET /about [36m304 [0m6.785 ms - -[0m
+(node:10846) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10846) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 1400
+Connected to the DB
+[0mGET /about [36m304 [0m20.348 ms - -[0m
+(node:10935) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10935) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 1400
+Connected to the DB
+[0mGET /about [36m304 [0m7.110 ms - -[0m
+[0mGET /about [36m304 [0m1.048 ms - -[0m
+[0mGET /about [36m304 [0m0.933 ms - -[0m
+[0mGET /about [36m304 [0m0.839 ms - -[0m
+[0mGET /about [36m304 [0m0.718 ms - -[0m
+[0mGET /report [36m304 [0m119.118 ms - -[0m
+[0mGET /report [32m200 [0m112.713 ms - 93[0m
+[0mGET /about [32m200 [0m0.875 ms - 169[0m
+[0mPOST /addcost [32m201 [0m140.641 ms - 147[0m
+[0mGET /report?used_id=123123&month=3&day=8 [32m200 [0m113.798 ms - 93[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [32m200 [0m118.374 ms - 191[0m
+[0mPOST /addcost [32m201 [0m124.725 ms - 150[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [32m200 [0m113.363 ms - 293[0m
+[0mPOST /addcost [32m201 [0m117.367 ms - 153[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [32m200 [0m114.039 ms - 397[0m
+[0mGET /report?user_id=123123 [32m200 [0m113.675 ms - 93[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [32m200 [0m113.259 ms - 397[0m
+[0mGET /report?user_id=123124&year=2024&month=3 [32m200 [0m113.181 ms - 93[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [36m304 [0m113.720 ms - -[0m
+[0mGET / [32m200 [0m155.440 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.713 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m20.735 ms - 1182[0m
+(node:11049) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11049) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 1400
+Connected to the DB
+[0mGET / [36m304 [0m178.520 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.377 ms - -[0m
+(node:11068) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11068) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+(node:11075) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11075) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+(node:11093) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11093) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:443
+    at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 443
+}
+(node:11100) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11100) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:443
+    at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 443
+}
+(node:11109) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11109) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:443
+    at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 443
+}
+(node:11124) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11124) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 443
+Connected to the DB
+[0mGET / [32m200 [0m215.020 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.745 ms - 111[0m
+[0mGET / [36m304 [0m15.393 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m17.432 ms - 1182[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.184 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m16.063 ms - 1182[0m
+[0mGET / [36m304 [0m14.883 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.518 ms - -[0m
+(node:11145) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11145) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 80
+Connected to the DB
+[0mGET / [32m200 [0m176.549 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.162 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m14.216 ms - 1182[0m
+[0mGET / [36m304 [0m9.035 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.691 ms - -[0m
+[0mGET / [32m200 [0m30.728 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.089 ms - 111[0m
+[0mGET / [32m200 [0m18.797 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.992 ms - 111[0m
+[0mGET / [32m200 [0m9.275 ms - 170[0m
+[0mGET / [32m200 [0m11.257 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m20.260 ms - 1182[0m
+[0mGET /favicon.ico [33m404 [0m12.950 ms - 1182[0m
+[0mGET /favicon.ico [33m404 [0m9.996 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m25.460 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m10.478 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m6.754 ms - 1182[0m
+[0mGET / [32m200 [0m13.640 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.777 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m9.831 ms - 1182[0m
+[0mGET / [32m200 [0m15.124 ms - 170[0m
+[0mGET /about [32m200 [0m0.902 ms - 169[0m
+[0mGET /about [32m200 [0m0.538 ms - 169[0m
+[0mGET /about [32m200 [0m0.725 ms - 169[0m
+[0mGET / [32m200 [0m4.777 ms - 170[0m
+[0mGET / [32m200 [0m7.625 ms - 170[0m
+[0mGET / [32m200 [0m5.994 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.932 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m5.908 ms - 1182[0m
+[0mGET / [32m200 [0m7.278 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.832 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m11.468 ms - 1182[0m
+[0mGET / [32m200 [0m4.260 ms - 170[0m
+[0mGET / [32m200 [0m6.450 ms - 170[0m
+[0mGET / [36m304 [0m6.512 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.756 ms - -[0m
+[0mGET /about [32m200 [0m0.645 ms - 169[0m
+(node:11681) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11681) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 80
+Connected to the DB
+(node:11702) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11702) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 443
+Connected to the DB
+(node:11835) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11835) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 80
+Connected to the DB
+[0mGET /cdn-cgi/styles/main.css [33m404 [0m311.829 ms - 1182[0m
+[0mGET /cdn-cgi/styles/main.css [33m404 [0m32.071 ms - 1182[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.718 ms - 111[0m
+[0mGET /cdn-cgi/styles/main.css [33m404 [0m12.241 ms - 1182[0m
+[0mGET / [32m200 [0m34.873 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.037 ms - -[0m
+[0mGET /about [36m304 [0m1.120 ms - -[0m
+[0mGET /about [36m304 [0m0.631 ms - -[0m
+[0mGET / [36m304 [0m11.907 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.882 ms - 111[0m
+[0mGET / [36m304 [0m10.024 ms - -[0m
+[0mGET / [36m304 [0m19.168 ms - -[0m
+[0mGET / [32m200 [0m7.560 ms - 170[0m
+(node:22312) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22312) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::443
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 443
+}
+(node:22369) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22369) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::443
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at Function.listen (/home/ubuntu/CostManager/CostManager/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/CostManager/CostManager/app.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1490:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 443
+}
+(node:22378) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22378) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 3000
+Connected to the DB
+[0mGET / [32m200 [0m423.160 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.096 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m24.240 ms - 1182[0m
+[0mGET / [32m200 [0m15.113 ms - 170[0m
+[0mGET / [32m200 [0m13.959 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.875 ms - 111[0m
+[0mGET / [32m200 [0m16.451 ms - 170[0m
+[0mGET /about [32m200 [0m0.957 ms - 169[0m
+[0mGET /favicon.ico [33m404 [0m13.920 ms - 1182[0m
+[0mGET /about [32m200 [0m0.737 ms - 169[0m
+[0mGET / [32m200 [0m9.578 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.153 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m31.294 ms - 1182[0m
+[0mGET /about [32m200 [0m0.937 ms - 169[0m
+[0mGET /report [32m200 [0m120.421 ms - 93[0m
+[0mGET /report?user [32m200 [0m114.020 ms - 93[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [32m200 [0m123.989 ms - 397[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [36m304 [0m114.893 ms - -[0m
+[0mGET / [32m200 [0m7.016 ms - 170[0m
+[0mGET / [32m200 [0m11.357 ms - 170[0m
+[0mGET /.env [33m404 [0m15.491 ms - 1182[0m
+[0mPOST / [33m404 [0m29.244 ms - 1182[0m
+[0mGET / [32m200 [0m12.260 ms - 170[0m
+[0mGET / [32m200 [0m6.892 ms - 170[0m
+[0mGET / [32m200 [0m12.003 ms - 170[0m
+[0mGET / [32m200 [0m12.536 ms - 170[0m
+[0mGET / [32m200 [0m8.113 ms - 170[0m
+[0mGET / [32m200 [0m10.863 ms - 170[0m
+[0mGET / [32m200 [0m9.576 ms - 170[0m
+[0mGET //libs/js/iframe.js [33m404 [0m21.855 ms - 1182[0m
+[0mGET / [32m200 [0m8.657 ms - 170[0m
+[0mGET / [32m200 [0m22.720 ms - 170[0m
+[0mGET / [32m200 [0m37.113 ms - 170[0m
+[0mGET / [32m200 [0m31.558 ms - 170[0m
+[0mGET / [32m200 [0m8.441 ms - 170[0m
+[0mGET / [32m200 [0m17.988 ms - 170[0m
+[0mGET / [32m200 [0m6.997 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.636 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m9.970 ms - 1182[0m
+[0mGET /about [32m200 [0m0.876 ms - 169[0m
+[0mGET /user_id [33m404 [0m8.350 ms - 1182[0m
+[0mGET /user_id=123123 [33m404 [0m20.922 ms - 1182[0m
+[0mGET /user_id=123123?year=2024&month=3 [33m404 [0m10.838 ms - 1182[0m
+[0mGET /user_id=123123?year=2024&month=3 [33m404 [0m17.009 ms - 1182[0m
+[0mGET / [32m200 [0m10.029 ms - 170[0m
+[0mGET / [32m200 [0m4.629 ms - 170[0m
+[0mGET / [32m200 [0m5.056 ms - 170[0m
+[0mGET / [32m200 [0m13.443 ms - 170[0m
+[0mHEAD / [32m200 [0m7.013 ms - 170[0m
+[0mGET / [32m200 [0m16.907 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m6.408 ms - 1182[0m
+[0mGET /favicon.ico [33m404 [0m7.513 ms - 1182[0m
+[0mGET /favicon.ico [33m404 [0m6.381 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m3.889 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m7.697 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m7.133 ms - 1182[0m
+[0mGET /about [36m304 [0m1.275 ms - -[0m
+[0mGET / [32m200 [0m3.267 ms - 170[0m
+[0mGET / [32m200 [0m8.661 ms - 170[0m
+[0mGET / [32m200 [0m6.230 ms - 170[0m
+[0mGET / [32m200 [0m7.252 ms - 170[0m
+[0mGET / [32m200 [0m5.336 ms - 170[0m
+[0mGET / [32m200 [0m4.139 ms - 170[0m
+[0mGET / [32m200 [0m13.127 ms - 170[0m
+[0mGET / [32m200 [0m2.966 ms - 170[0m
+[0mGET / [32m200 [0m4.751 ms - 170[0m
+[0mGET / [32m200 [0m4.026 ms - 170[0m
+[0mGET / [32m200 [0m5.232 ms - 170[0m
+[0mGET / [32m200 [0m3.783 ms - 170[0m
+[0mHEAD / [32m200 [0m5.171 ms - 170[0m
+[0mGET / [32m200 [0m2.976 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m7.436 ms - 1182[0m
+[0mGET /favicon.ico [33m404 [0m7.510 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m11.840 ms - 1182[0m
+[0mGET /favicon.png [33m404 [0m11.165 ms - 1182[0m
+[0mGET / [32m200 [0m5.902 ms - 170[0m
+[0mGET / [32m200 [0m4.283 ms - 170[0m
+[0mGET / [32m200 [0m13.502 ms - 170[0m
+[0mGET / [32m200 [0m5.317 ms - 170[0m
+[0mGET / [32m200 [0m3.617 ms - 170[0m
+[0mGET / [32m200 [0m6.837 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.865 ms - -[0m
+[0mGET / [32m200 [0m4.371 ms - 170[0m
+[0mGET / [32m200 [0m6.075 ms - 170[0m
+[0mGET / [32m200 [0m6.772 ms - 170[0m
+[0mGET / [32m200 [0m7.342 ms - 170[0m
+[0mGET / [32m200 [0m3.211 ms - 170[0m
+[0mHEAD / [32m200 [0m3.816 ms - 170[0m
+[0mGET / [32m200 [0m4.426 ms - 170[0m
+[0mGET /robots.txt [33m404 [0m7.874 ms - 1182[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.987 ms - 111[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.387 ms - -[0m
+[0mGET / [32m200 [0m8.149 ms - 170[0m
+[0mGET / [32m200 [0m3.128 ms - 170[0m
+[0mGET / [32m200 [0m4.354 ms - 170[0m
+[0mGET / [32m200 [0m4.440 ms - 170[0m
+[0mGET /about [36m304 [0m1.128 ms - -[0m
+[0mGET /report?user_id=123123&year=2024&month=3 [36m304 [0m123.817 ms - -[0m
+[0mGET / [32m200 [0m10.619 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m4.395 ms - 1182[0m
+[0mGET / [32m200 [0m3.600 ms - 170[0m
+[0mGET / [32m200 [0m11.752 ms - 170[0m
+[0mGET / [32m200 [0m3.959 ms - 170[0m
+[0mGET / [32m200 [0m4.491 ms - 170[0m
+[0mGET /Public/home/js/check.js [33m404 [0m4.187 ms - 1182[0m
+[0mGET /Public/home/js/check.js [33m404 [0m4.639 ms - 1182[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m4.295 ms - 1182[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m4.445 ms - 1182[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m7.254 ms - 1182[0m
+[0mGET / [32m200 [0m7.105 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m5.911 ms - 1182[0m
+[0mGET / [32m200 [0m7.388 ms - 170[0m
+[0mGET / [32m200 [0m4.570 ms - 170[0m
+[0mGET / [32m200 [0m6.740 ms - 170[0m
+[0mGET /Public/home/js/check.js [33m404 [0m4.340 ms - 1182[0m
+[0mGET /Public/home/js/check.js [33m404 [0m6.734 ms - 1182[0m
+[0mGET /Public/home/js/check.js [33m404 [0m9.242 ms - 1182[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m6.758 ms - 1182[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m6.456 ms - 1182[0m
+[0mGET / [32m200 [0m6.599 ms - 170[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m5.585 ms - 1182[0m
+[0mGET / [32m200 [0m3.802 ms - 170[0m
+[0mGET / [32m200 [0m5.495 ms - 170[0m
+[0mGET /Public/home/js/check.js [33m404 [0m6.101 ms - 1182[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m7.003 ms - 1182[0m
+[0mGET / [32m200 [0m4.421 ms - 170[0m
+[0mGET / [32m200 [0m5.873 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.678 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m5.474 ms - 1182[0m
+[0mGET / [32m200 [0m3.845 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.918 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m4.112 ms - 1182[0m
+[0mGET / [32m200 [0m15.077 ms - 170[0m
+[0mGET / [32m200 [0m3.731 ms - 170[0m
+[0mGET / [32m200 [0m2.796 ms - 170[0m
+[0mGET / [32m200 [0m4.486 ms - 170[0m
+[0mGET / [32m200 [0m4.269 ms - 170[0m
+[0mGET / [32m200 [0m5.454 ms - 170[0m
+[0mGET /version [33m404 [0m4.062 ms - 1182[0m
+[0mGET / [32m200 [0m8.739 ms - 170[0m
+[0mGET / [32m200 [0m6.540 ms - 170[0m
+[0mGET /.env [33m404 [0m4.622 ms - 1182[0m
+[0mGET /api/v2/cmdb/system/admin/admin [33m404 [0m25.230 ms - 1182[0m
+[0mGET / [32m200 [0m4.997 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m6.478 ms - 1182[0m
+[0mGET / [32m200 [0m5.047 ms - 170[0m
+[0mGET / [32m200 [0m7.803 ms - 170[0m
+[0mGET / [32m200 [0m5.357 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m3.975 ms - 1182[0m
+[0mGET / [32m200 [0m4.606 ms - 170[0m
+[0mGET / [32m200 [0m3.083 ms - 170[0m
+[0mGET / [32m200 [0m4.283 ms - 170[0m
+[0mGET / [32m200 [0m3.517 ms - 170[0m
+[0mGET / [32m200 [0m3.445 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m3.673 ms - 1182[0m
+[0mGET / [32m200 [0m4.282 ms - 170[0m
+[0mHEAD / [32m200 [0m9.532 ms - 170[0m
+[0mGET / [32m200 [0m4.181 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m4.861 ms - 1182[0m
+[0mGET / [32m200 [0m3.672 ms - 170[0m
+[0mGET / [32m200 [0m5.519 ms - 170[0m
+[0mGET / [32m200 [0m8.727 ms - 170[0m
+[0mGET / [32m200 [0m4.401 ms - 170[0m
+[0mGET / [32m200 [0m6.455 ms - 170[0m
+[0mGET / [32m200 [0m11.687 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.060 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m4.771 ms - 1182[0m
+[0mGET /favicon.ico [33m404 [0m4.095 ms - 1182[0m
+[0mGET / [32m200 [0m7.234 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.072 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m6.680 ms - 1182[0m
+[0mGET /.git/config [33m404 [0m3.150 ms - 1182[0m
+[0mGET /autodiscover/autodiscover.json?@zdi/Powershell [33m404 [0m6.109 ms - 1182[0m
+[0mGET / [32m200 [0m12.600 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m18.565 ms - 1182[0m
+[0mGET /.git/config [33m404 [0m25.204 ms - 1182[0m
+[0mGET / [32m200 [0m12.001 ms - 170[0m
+[0mGET / [32m200 [0m14.163 ms - 170[0m
+[0mGET / [32m200 [0m33.507 ms - 170[0m
+[0mGET / [32m200 [0m10.653 ms - 170[0m
+[0mGET / [32m200 [0m7.691 ms - 170[0m
+[0mGET / [32m200 [0m11.900 ms - 170[0m
+[0mGET / [32m200 [0m7.579 ms - 170[0m
+[0mGET / [32m200 [0m27.364 ms - 170[0m
+[0mGET / [32m200 [0m4.363 ms - 170[0m
+[0mGET /cf_scripts/scripts/ajax/ckeditor/ckeditor.js [33m404 [0m9.712 ms - 1182[0m
+[0mGET / [32m200 [0m24.542 ms - 170[0m
+[0mGET / [32m200 [0m13.364 ms - 170[0m
+[0mGET / [32m200 [0m8.289 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.216 ms - 111[0m
+[0mGET /about [36m304 [0m0.767 ms - -[0m
+[0mGET / [32m200 [0m7.672 ms - 170[0m
+[0mGET / [32m200 [0m5.616 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.632 ms - 111[0m
+[0mGET /about [36m304 [0m0.540 ms - -[0m
+[0mGET /report [32m200 [0m132.648 ms - 93[0m
+[0mGET / [32m200 [0m4.275 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.634 ms - 111[0m
+[0mGET / [32m200 [0m6.479 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.664 ms - 111[0m
+[0mGET / [32m200 [0m3.929 ms - 170[0m
+[0mGET /.env [33m404 [0m10.313 ms - 1182[0m
+[0mGET / [32m200 [0m5.059 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m4.426 ms - 1182[0m
+[0mGET / [32m200 [0m17.196 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m13.117 ms - 1182[0m
+[0mGET / [32m200 [0m13.133 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m11.830 ms - 1182[0m
+[0mGET / [32m200 [0m6.155 ms - 170[0m
+[0mGET / [32m200 [0m4.779 ms - 170[0m
+[0mGET /admin/config.php [33m404 [0m4.610 ms - 1182[0m
+[0mGET / [32m200 [0m5.564 ms - 170[0m
+[0mGET / [32m200 [0m6.627 ms - 170[0m
+[0mGET / [32m200 [0m4.153 ms - 170[0m
+[0mGET / [32m200 [0m6.489 ms - 170[0m
+[0mGET / [32m200 [0m6.495 ms - 170[0m
+[0mGET / [32m200 [0m24.262 ms - 170[0m
+[0mGET / [32m200 [0m10.547 ms - 170[0m
+[0mGET / [32m200 [0m5.443 ms - 170[0m
+[0mGET / [32m200 [0m5.393 ms - 170[0m
+[0mGET / [32m200 [0m10.415 ms - 170[0m
+[0mGET / [32m200 [0m3.288 ms - 170[0m
+[0mGET / [32m200 [0m4.357 ms - 170[0m
+[0mGET /about/ [32m200 [0m0.989 ms - 169[0m
+[0mGET /report/?user_id=123123&year=2023&month=3 [32m200 [0m121.634 ms - 93[0m
+[0mPOST /addcost/ [32m201 [0m136.928 ms - 149[0m
+[0mGET /report/?user_id=123123&year=2023&month=3 [32m200 [0m113.188 ms - 193[0m
+[0mGET / [32m200 [0m12.661 ms - 170[0m
+[0mGET / [32m200 [0m16.251 ms - 170[0m
+[0mGET / [32m200 [0m3.206 ms - 170[0m
+[0mGET / [32m200 [0m4.271 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m10.716 ms - 1182[0m

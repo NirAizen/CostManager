@@ -30,7 +30,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   console.log(`Failed to connect: ${err}`);
 });
 
-const PORT = process.env.PORT || 1400;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () =>
 {
